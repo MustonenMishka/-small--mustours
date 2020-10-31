@@ -560,9 +560,9 @@ body {
   .form__input:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
-    border-bottom: 3px solid #b83b5e; }
+    border-bottom: 3px solid green; }
   .form__input:focus:invalid {
-    border-bottom: 3px solid #40514e; }
+    border-bottom: 3px solid red; }
   .form__input::placeholder {
     color: #999; }
 

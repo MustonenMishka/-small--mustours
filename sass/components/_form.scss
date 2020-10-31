@@ -23,11 +23,11 @@
     &:focus {
       outline: none;
       box-shadow: 0 1rem 2rem rgba($color-black, .1);
-      border-bottom: 3px solid $color-primary;
+      border-bottom: 3px solid green;
     }
 
     &:focus:invalid {
-      border-bottom: 3px solid $color-secondary-dark;
+      border-bottom: 3px solid red;
     }
 
     &::placeholder {
