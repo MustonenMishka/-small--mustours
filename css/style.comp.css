@@ -149,6 +149,9 @@ body {
   @media only screen and (max-width: 56.25em) {
     .section-about {
       padding: 20rem 0; } }
+  @media only screen and (max-width: 37.5em) {
+    .section-about {
+      margin-top: -15vh; } }
 
 .section-features {
   padding: 20rem 0;
@@ -718,7 +721,8 @@ body {
       background-image: linear-gradient(to right bottom, rgba(240, 138, 93, 0.75), rgba(106, 44, 112, 0.75)), url(../img/header-lg.jpg); } }
   @media only screen and (max-width: 37.5em) {
     .header {
-      clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
+      clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
+      height: 75vh; } }
   .header__logo-box {
     position: absolute;
     top: 4rem;
